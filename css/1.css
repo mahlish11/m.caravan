@@ -1,0 +1,62 @@
+body {
+		margin: 0;
+		padding: 0;
+		position: relative;
+			 
+}
+.footer {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the footer at the bottom of the page */
+  width: 100%; /* Full width */
+}
+
+#particles-js {
+	background: url(/image/banner0.jpg);
+	height: 500px;
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.btn {
+	/*outline-width: 1px;
+	outline-style:  solid;
+	outline-color:  #f54a2c;*/
+}
+
+li {
+	padding: 10px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-size: 18px;
+}
+
+hr {
+	margin-top: -10px;
+	background-color: #f54a2c;
+}
+			
+.header {
+	padding: 6px;
+	margin-top: -5px;
+ 	text-align: center;
+ 	color: #f54a2c;
+	font-size: 14px;
+	position: relative;
+}
+.moon {
+	width: 30px;
+	height: 30px;
+	margin-top: -35px;
+	margin-left: 510px;
+	position: absolute;
+	color: white;
+
+}
+	.text-right {
+		margin-top: -30px;
+		
+		/*padding: 5px;*/
+	}
