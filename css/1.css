@@ -1,29 +1,19 @@
 body {
 		margin: 0;
 		padding: 0;
-		position: relative;
+		background-color: black;
+		/* position: relative; */
 			 
-}
-.footer {
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  bottom: 0; /* Position the footer at the bottom of the page */
-  width: 100%; /* Full width */
 }
 
 #particles-js {
-	background: url(/image/banner0.jpg);
+	/* background: url(/image/banner.jpg); */
+	background-image: url(/image/banner.jpg);
 	height: 500px;
 	width: 100%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
-}
-
-.btn {
-	/*outline-width: 1px;
-	outline-style:  solid;
-	outline-color:  #f54a2c;*/
 }
 
 li {
@@ -32,11 +22,6 @@ li {
 	padding-top: 0px;
 	font-size: 18px;
 }
-
-hr {
-	margin-top: -10px;
-	background-color: #f54a2c;
-}
 			
 .header {
 	padding: 6px;
@@ -44,7 +29,7 @@ hr {
  	text-align: center;
  	color: #f54a2c;
 	font-size: 14px;
-	position: relative;
+	/* position: relative; */
 }
 .moon {
 	width: 30px;
@@ -53,10 +38,19 @@ hr {
 	margin-left: 510px;
 	position: absolute;
 	color: white;
-
 }
-	.text-right {
+
+.text-right {
 		margin-top: -30px;
-		
-		/*padding: 5px;*/
+}
+
+	.site_name {
+		color: #f54a2c;
 	}
+
+	/* .footer {
+		overflow: hidden;
+		position: fixed;
+		bottom: 0; 
+		width: 100%; 
+	  } */

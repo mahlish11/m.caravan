@@ -149,3 +149,5 @@ $(document).ready(function(){
     $("#night").show();
     $("#day").hide();
   });
+
+ 
