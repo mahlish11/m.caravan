@@ -1,14 +1,11 @@
 body {
 		margin: 0;
 		padding: 0;
-		background-color: black;
-		/* position: relative; */
-			 
+		background-color: black; 
 }
 
 #particles-js {
-	/* background: url(/image/banner.jpg); */
-	background-image: url(/image/banner.jpg);
+	background: url(https://raw.githubusercontent.com/mahlish11/m.caravan/master/image/banner.jpg);
 	height: 500px;
 	width: 100%;
 	-webkit-background-size: cover;
@@ -22,14 +19,21 @@ li {
 	padding-top: 0px;
 	font-size: 18px;
 }
-			
 .header {
 	padding: 6px;
 	margin-top: -5px;
- 	text-align: center;
+ 	/* text-align: center; */
  	color: #f54a2c;
 	font-size: 14px;
 	/* position: relative; */
+}		
+#header {
+	padding: 3px;
+	/* margin-top: -5px; */
+ 	/* text-align: center; */
+ 	color: #f54a2c;
+	font-size: 14px;
+	position: relative;
 }
 .moon {
 	width: 30px;
@@ -41,16 +45,15 @@ li {
 }
 
 .text-right {
-		margin-top: -30px;
+		margin-top: -10px;
 }
 
 	.site_name {
 		color: #f54a2c;
 	}
-
-	/* .footer {
-		overflow: hidden;
-		position: fixed;
-		bottom: 0; 
-		width: 100%; 
-	  } */
+	.site_name:hover {
+		color: #f54a2c;
+		text-decoration-line: none;
+	}
+   
+	  
